@@ -4,6 +4,7 @@
   "description": "An IOS calculator build with react, typescript and styled components",
   "main": "src/index.tsx",
   "scripts": {
+    "commit": "git-cz",
     "lint": "eslint src --ext .tsx --ext .ts --ext .js",
     "start": "webpack-dev-server --mode development --open --hot",
     "test": "jest --watch",
