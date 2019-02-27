@@ -3,6 +3,28 @@ An IOS calculator build with react, typescript and styled components
 
 ![calculator](ios_calculator.png)
 
+## Running the project
+
+### npm run start
+
+To start the project in port 3000
+
+### npm run lint
+
+To run eslint, find linting issues in code
+
+### npm run test
+
+To run jest tests
+
+### npm run build
+
+To create a production build. The build process inherently runs `lint` and `test` before building. To make sure there are no errors in build code.
+
+### npm run commit
+
+Semantic commits with messages and implementation
+
 ## Dependancies
 
 * @types/enzyme@3.9.0
@@ -37,24 +59,3 @@ An IOS calculator build with react, typescript and styled components
 * webpack-cli@3.2.3
 * webpack-dev-server@3.2.1
 
-## Running the project
-
-### npm run start
-
-To start the project in port 3000
-
-### npm run lint
-
-To run eslint, find linting issues in code
-
-### npm run test
-
-To run jest tests
-
-### npm run build
-
-To create a production build. The build process inherently runs `lint` and `test` before building. To make sure there are no errors in build code.
-
-### npm run commit
-
-Semantic commits with messages and implementation
