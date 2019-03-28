@@ -25,7 +25,7 @@ To create a production build. The build process inherently runs `lint` and `test
 
 Semantic commits with messages and implementation
 
-## Dependancies
+## Dependencies
 
 * @types/enzyme@3.9.0
 * @types/jest@24.0.9
